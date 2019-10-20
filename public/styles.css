@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -7,6 +8,11 @@ nav {
   background-color: #881c1c;
 }
 
-.nav-link, .navbar-brand {
-  color: #ffffff
+.nav-link,
+.navbar-brand {
+  color: #ffffff;
+}
+
+.carousel-inner {
+  max-height: 675px;
 }
