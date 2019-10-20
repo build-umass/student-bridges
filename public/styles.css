@@ -13,6 +13,10 @@ nav {
   color: #ffffff;
 }
 
+.nav-link:hover {
+  color: #c2c0c0;
+}
+
 .carousel-inner {
   max-height: 675px;
 }
