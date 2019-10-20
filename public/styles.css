@@ -8,9 +8,13 @@ nav {
   background-color: #881c1c;
 }
 
-.nav-link,
+.nav-link {
+  color: #ffffff;
+}
+
 .navbar-brand {
   color: #ffffff;
+  padding: 0;
 }
 
 .carousel-inner {
