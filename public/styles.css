@@ -50,3 +50,43 @@ nav {
 .page-footer {
   background: #881c1c
 }
+
+.text-muted {
+  font-weight: 100;
+}
+
+.lead {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#about-us-body {
+  position: relative;
+  top:50px;
+}
+
+#about-us-icons {
+  position: relative;
+  top:100px;
+}
+
+.fa-book{
+  color:#22A7F0;
+}
+
+.fa-group{
+  color: #26A65B;
+}
+
+.fa-cogs{
+  color:#F22613;
+}
+
+.fa-handshake-o{
+  color:#F9690E;
+}
+
+#about-us-title{
+  font-weight: 400;
+  font-family: Georgia;
+}
