@@ -51,10 +51,6 @@ nav {
   background: #881c1c
 }
 
-.text-muted {
-  font-weight: 100;
-}
-
 .lead {
   margin-left: 10%;
   margin-right: 10%;
@@ -87,6 +83,15 @@ nav {
 }
 
 #about-us-title{
+  color:white;
   font-weight: 400;
   font-family: Georgia;
+}
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
