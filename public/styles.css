@@ -56,16 +56,6 @@ nav {
   margin-right: 10%;
 }
 
-#about-us-body {
-  position: relative;
-  top:50px;
-}
-
-#about-us-icons {
-  position: relative;
-  top:100px;
-}
-
 .fa-book{
   color:#22A7F0;
 }
@@ -88,8 +78,24 @@ nav {
   font-family: Georgia;
 }
 
+#about-us-icons{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#advocacy{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.infobox {
+  color:white;
+  font-size: 21px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #F9690E;
+  border-radius: 20px;
+}
 .parallax {
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
