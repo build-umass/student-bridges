@@ -38,7 +38,7 @@ nav {
   background: #ffffff;
   margin-left: 300px;
   margin-right: 300px;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .head {
@@ -48,5 +48,16 @@ nav {
 }
 
 .page-footer {
-  background: #881c1c
+  background: #881c1c;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
