@@ -88,10 +88,20 @@ nav {
   margin-bottom: 30px;
 }
 
+#history {
+  margin-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#read-more {
+  position: relative;
+  top:-25px;
+  font-size: 20px;
+}
+
 .infobox {
-  color:white;
   font-size: 21px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Barlow', sans-serif;
   background-color: #F9690E;
   border-radius: 20px;
 }
