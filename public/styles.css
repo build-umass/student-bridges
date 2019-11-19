@@ -53,6 +53,7 @@ nav {
 
 .text-center {
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .centered {
@@ -60,4 +61,9 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.programs .card-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #881c1c;
 }
