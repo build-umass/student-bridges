@@ -50,3 +50,129 @@ nav {
 .page-footer {
   background: #881c1c
 }
+
+.lead {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.fa-book{
+  color:#22A7F0;
+}
+
+.fa-group{
+  color: #26A65B;
+}
+
+.fa-cogs{
+  color:#F22613;
+}
+
+.fa-handshake-o{
+  color:#F9690E;
+}
+
+.fa-history {
+  color:#484c7f;
+}
+
+.fa-check {
+  color:#f1f72f
+}
+
+#about-us-title{
+  color:white;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#about-us-icons{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#advocacy{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#history {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#history-text {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#read-more {
+  position: relative;
+  top:-25px;
+  font-size: 20px;
+}
+
+#accordion {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.btn-link {
+  color: black;
+
+}
+
+#goals-title {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.infobox {
+  font-size: 21px;
+  font-family: 'Barlow', sans-serif;
+  background-color: #F9690E;
+  border-radius: 20px;
+}
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media(max-width: 992px){
+  .display-3 {
+    font-size: 43px;
+  }
+}
+
+@media(max-width: 768px){
+  .display-3 {
+    font-size: 35px;
+  }
+}
+@media(max-width: 576px){
+  .display-3 {
+    font-size: 35px;
+  }
+  .lead {
+    font-size:15px;
+  }
+}
+
+@media(max-width: 388px){
+  .display-3 {
+    font-size: 35px;
+  }
+  .lead {
+    font-size:12px;
+  }
+}
+
+@media(max-width: 250px){
+  .display-3 {
+    font-size: 30px;
+  }
+  .lead {
+    font-size:10px;
+  }
+}
