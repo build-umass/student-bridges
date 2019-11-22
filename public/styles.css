@@ -56,6 +56,22 @@ nav {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -66,4 +82,19 @@ nav {
 .programs .card-title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #881c1c;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  .centered {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
 }
