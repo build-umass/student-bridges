@@ -34,10 +34,11 @@ nav {
   transition: all 0.2s ease-out;
 }
 
-.jumbotron {
+.home.container-fluid {
   background: #ffffff;
-  margin-left: 300px;
-  margin-right: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -139,6 +140,21 @@ nav {
   background-size: cover;
 }
 
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
 @media(max-width: 992px){
   .display-3 {
     font-size: 43px;
@@ -148,6 +164,11 @@ nav {
 @media(max-width: 768px){
   .display-3 {
     font-size: 35px;
+  }
+  .home.container-fluid {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
   }
 }
 @media(max-width: 576px){
