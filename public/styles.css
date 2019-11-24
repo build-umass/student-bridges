@@ -8,6 +8,14 @@ nav {
   background-color: #881c1c;
 }
 
+.dropdown-menu {
+  /* background-color: #881c1c; */
+}
+
+.dropdown-item {
+  /* color: #ffffff; */
+}
+
 .nav-link {
   color: #ffffff;
 }
@@ -123,6 +131,21 @@ nav {
 }
 
 #goals-title {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.team-info {
+  font-style: italic;
+  position: relative;
+  top:-10px;
+}
+
+#teams-title {
+  font-weight: 400;
   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
