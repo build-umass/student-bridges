@@ -162,6 +162,39 @@ nav {
   background-size: cover;
 }
 
+.text-center {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.programs .card-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #881c1c;
+}
+
 @media(max-width: 992px){
   .display-3 {
     font-size: 43px;
@@ -203,36 +236,4 @@ nav {
   }
 }
 
-.text-center {
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.container-fluid {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.programs .card-title {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #881c1c;
-}
 
