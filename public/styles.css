@@ -211,8 +211,15 @@ nav {
   }
 
 .applicationstext{
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #881c1c;
+}
+
+.applicationsdescription{
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000000;
 }
 
 @media(max-width: 992px){
