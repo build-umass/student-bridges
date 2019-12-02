@@ -42,11 +42,12 @@ nav {
   transition: all 0.2s ease-out;
 }
 
-.jumbotron {
+.home.container-fluid {
   background: #ffffff;
-  margin-left: 300px;
-  margin-right: 300px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .head {
@@ -167,7 +168,7 @@ nav {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.container-fluid {
+.programs.container-fluid {
   position: relative;
   text-align: center;
   color: white;
@@ -194,6 +195,20 @@ nav {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #881c1c;
 }
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
 
 @media(max-width: 992px){
   .display-3 {
@@ -206,7 +221,12 @@ nav {
     font-size: 35px;
   }
   .centered {
-	  font-size: 50%;
+    font-size: 50%;
+  }
+  .home.container-fluid {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
   }
 }
 @media(max-width: 576px){
