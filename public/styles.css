@@ -222,6 +222,19 @@ nav {
   color: #000000;
 }
 
+.tours-text{
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #881c1c;
+}
+
+.tours-description{
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+  text-indent: 50px;
+}
+
 @media(max-width: 992px){
   .display-3 {
     font-size: 43px;
