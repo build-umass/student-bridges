@@ -8,14 +8,6 @@ nav {
   background-color: #881c1c;
 }
 
-.dropdown-menu {
-  /* background-color: #881c1c; */
-}
-
-.dropdown-item {
-  /* color: #ffffff; */
-}
-
 .nav-link {
   color: #ffffff;
 }
@@ -224,6 +216,10 @@ nav {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #000000;
+}
+
+.web-text{
+  font-size: 20px;
 }
 
 @media(max-width: 992px){
