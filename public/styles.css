@@ -219,7 +219,10 @@ nav {
     font-size: 35px;
   }
   .centered {
-    font-size: 50%;
+    font-size: 30px;
+  }
+  .lead {
+    font-size:16px;
   }
   .home.container-fluid {
     padding-left: 35px;
@@ -229,16 +232,16 @@ nav {
 }
 @media(max-width: 576px){
   .display-3 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .lead {
     font-size:15px;
   }
 }
 
-@media(max-width: 400px){
+@media(max-width: 450px){
   .display-3 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .lead {
     font-size:12px;
