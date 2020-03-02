@@ -6,6 +6,7 @@ body {
 
 nav {
   background-color: #881c1c;
+  font-family: 'Barlow', sans-serif;
 }
 
 .nav-link {
@@ -29,6 +30,7 @@ nav {
   color:#ffffff; 
   font-size: 800%; 
   text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  font-family: 'Barlow', sans-serif;
 }
 
 .overlay {
@@ -102,18 +104,8 @@ nav {
   margin-bottom: 30px;
 }
 
-#advocacy{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-#history {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-#history-text {
-  font-family: Georgia, 'Times New Roman', Times, serif
+.main-text {
+  font-family: 'Barlow', sans-serif;
 }
 
 #read-more {
@@ -126,15 +118,12 @@ nav {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
+  font-family: 'Barlow', sans-serif;
 }
 
 .btn-link {
   color: black;
 
-}
-
-#goals-title {
-  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .card-title {
@@ -147,15 +136,10 @@ nav {
   top:-10px;
 }
 
-#teams-title {
-  font-weight: 400;
-  font-family: Georgia, 'Times New Roman', Times, serif
-}
-
 .infobox {
-  font-size: 21px;
-  font-family: 'Barlow', sans-serif;
-  background-color: #F9690E;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #881c1c;
   border-radius: 20px;
 }
 .parallax {
@@ -163,11 +147,12 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(136,28,28,0.7);
+  background-blend-mode: multiply;
 }
 
 .text-center {
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .programs.container-fluid {
@@ -194,7 +179,7 @@ nav {
 }
 
 .programs .card-title {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Barlow', sans-serif;
   color: #881c1c;
 }
 .map-container{
@@ -220,15 +205,17 @@ nav {
 
 .applicationsdescription{
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Barlow', sans-serif;
   color: #000000;
 }
 
 .web-text{
+  font-family: 'Barlow', sans-serif;
   font-size: 20px;
 }
 
 .footer-text{
+  font-family: 'Barlow', sans-serif;
   font-size:12px;
 }
 
