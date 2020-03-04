@@ -39,8 +39,6 @@ nav {
   height: 100%;
   background-color: rgba(136,28,28,0.3);
   background-blend-mode: multiply;
-  /* background: #000; */
-  /* opacity: 0.3; */
   transition: all 0.2s ease-out;
 }
 
