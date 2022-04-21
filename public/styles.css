@@ -26,6 +26,13 @@ nav {
   max-height: 675px;
 }
 
+.slideshow-img{
+  width: auto;
+  height: 675px;
+  margin: auto; 
+  display: block;
+}
+
 .carousel-caption {
   color:#ffffff; 
   font-size: 800%; 
